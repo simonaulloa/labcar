@@ -8,7 +8,24 @@ footer: #2b2b2b;
 	padding: 0;
 }
 /*navbar*/
-
+.navbar{
+	text-align: center;
+	margin: 20px;
+}
+.a-uno{
+	color: #2b2b2b;
+	margin-left: 40px;
+}
+.a-uno:hover{
+	color: #2b2b2b;
+	text-shadow: 1px 2px #bbbbbb; /* sombra al texto */
+	margin-left: 40px;
+	text-decoration: none;
+}
+.otro{
+	margin-top: 10px;
+}
+     
 /*hero*/
 #hero{
 	background-image: url(../img/taxi.jpg);
@@ -22,6 +39,7 @@ footer: #2b2b2b;
 	margin-bottom: 200px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	padding-left: 30px;
 	background-color: #f7b617;
 }
 .in-uno, .in-dos{
@@ -33,6 +51,18 @@ footer: #2b2b2b;
 .boton-hero{
 	margin-top: 10px;
 	color: black;
+	border-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+.boton-hero:hover {
+	margin-top: 10px;
+	color: white;
+	background-color: #2b2b2b;
+	border-style: none;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -43,11 +73,13 @@ footer: #2b2b2b;
 #informacion{
 	color: white;
 	background-color: #f7b617;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .info{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	border: 2px solid white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: 2px solid white;	
 }
 .imagen-celular{
 	margin: 50px;
@@ -61,10 +93,13 @@ footer: #2b2b2b;
 #conduce{
 	color: white;
 	background-image: url(../img/conduce.jpg);
+	background-position:center;
+	background-size:cover;
+	height: 75vh;
 }
 .conduce-dos{
-	padding: 100px 40px 200px 30px;
-	background-color: rgba(43, 43, 43, 0.3);
+	padding: 110px 40px 200px 30px;
+	background-color: rgba(43, 43, 43, 0.4);
 }
 .boton-conduce{
 	color: white;
@@ -82,6 +117,10 @@ footer: #2b2b2b;
 #tarifas{
 	background-color: #f7b617;
 
+}
+#map{	
+	height: 70vh;
+	border: 10px solid #DDAA98;
 }
 /*footer*/
 footer{
