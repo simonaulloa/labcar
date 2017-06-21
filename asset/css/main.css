@@ -1,0 +1,91 @@
+/*colores
+amarillo: #f7b617;
+footer: #2b2b2b;
+*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+/*navbar*/
+
+/*hero*/
+#hero{
+	background-image: url(../img/taxi.jpg);
+	background-position:center bottom;
+	background-size:cover;
+	color: white;
+	
+}
+.hero-dos{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f7b617;
+}
+.in-uno, .in-dos{
+	width: 100px;
+	background: none;
+	border: none;
+    border-bottom: 2px solid white;
+}
+.boton-hero{
+	margin-top: 10px;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+/*informacion*/
+#informacion{
+	color: white;
+	background-color: #f7b617;
+}
+.info{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 2px solid white;
+}
+.imagen-celular{
+	margin: 50px;
+}
+.texto-info, .texto info p{
+	font-size: 21px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*conduce*/
+#conduce{
+	color: white;
+	background-image: url(../img/conduce.jpg);
+}
+.conduce-dos{
+	padding: 100px 40px 200px 30px;
+	background-color: rgba(43, 43, 43, 0.3);
+}
+.boton-conduce{
+	color: white;
+	background-color: #f7b617;
+	border-radius: 3px;
+	margin: 15px auto;
+	padding: 10px 15px;
+	color: white;
+	border:0;
+	font-weight: 700;
+	font-family: "raleway";
+	font-size: 15px;
+}
+/*tarifas*/
+#tarifas{
+	background-color: #f7b617;
+
+}
+/*footer*/
+footer{
+	background-color: #2b2b2b;
+	color: white;
+}
+
