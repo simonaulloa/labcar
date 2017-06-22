@@ -138,8 +138,11 @@ footer: #2b2b2b;
 	background-color: white;
 }
 #map{	
-	margin: 50px 0;
 	height: 70vh;
+}
+.mapa{
+	margin: 40px 0 40px 0;
+	padding: 10px;
 	border: 1px solid white;
 }
 .input-tarifas{

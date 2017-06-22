@@ -1,4 +1,3 @@
-var map;
 function initMap(){
 	var map = new google.maps.Map(document.getElementById("map"), {
 		zoom:5,
@@ -34,3 +33,4 @@ function initMap(){
 var funcionError = function (error) {
 		alert ("tenemos un problema con encontrar tu ubicacion");
 	}
+}
