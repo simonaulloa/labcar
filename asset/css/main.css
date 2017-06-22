@@ -86,7 +86,7 @@ footer: #2b2b2b;
 	border-left: none;	
 }
 .imagen-celular{
-	margin: 50px;
+	margin: 50px 0 50px 50px;
 }
 .texto-info, .texto info p{
 	font-size: 21px;
